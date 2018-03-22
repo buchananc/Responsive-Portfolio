@@ -240,77 +240,116 @@ input[type=submit] {
 /*optimization for 980px width*/
 
 @media screen and (max-width: 980px) {
-    #masthead {
-      position: fixed;
-      width: 100%;
-      padding-left: 80px;
-      padding-right: 90px;
-      overflow: auto;
-    }
 
-    .main-section {
-      width: 55%;
-    }
+  #masthead {
+    padding-left: 10%;
+    padding-right: 4%;
+  }
 
-    #main-container {
-      margin-top: 0px;
-      float:center;
-      padding-left: 70px;
-      padding-right: 65px;
-    }
+  #logo {
+    font-size: 110%;
+    height: 3em;
+    width: 7.5em;
+    line-height: 4rem;  
+  }
 
-    .auth-image {
-      width: 360px;
-      margin-right: 0px;
-      margin-left: 15px;      
-    }
+  nav {
+    font-size: 70%;
+    margin-top: 2%;
+  }
 
+  #main-container {
+    padding-top: 15%;
+    padding-right: 3%;
+    padding-left: 10%;
+  }
+
+  .main-section {
+    padding: 4%;
+    width: 55%;
+    font-size: 80%;
+    line-height: 170%;
+  }
+
+  h1 {
+    font-size: 110%;
+    padding-bottom: 3%;
+    line-height: 208%;
+  }
+
+  .auth-image {
+    margin: 0;
+    width: 100%;
+  }
+
+  .sidebar {
+    width: 35%;
+    font-size: 80%;
+    padding: 3%;
+  }
+
+  #socialicon {
+    padding: 0;
+  }
+
+  .connectimg {
+    width: 31%;
+  }
+
+  footer {
+    padding-top: 3%;
+    padding-bottom: 6%;
+  }
+}
 
 
 /*optimization for 768px width*/
 
 @media screen and (max-width: 768px) {
-	body {
-		max-width: 768px;
-  }
-  
+
   #masthead {
-  position: fixed;
-  width: 100%;
-  padding-left: 35px;
-  padding-right: 10px;
-  overflow: auto;
+    padding-left: 5%;
   }
-  
-  .main-section {
-    width: 100%;
-    padding-left: 30px;
-    padding-right: 30px;
+
+  #logo {
+    font-size: 85%;
+    height: 3.3em;
+    width: 6.5em;
+    line-height: 3rem;
+  }
+
+  nav {
+    font-size: 60%;
+    padding-right: 4%;
   }
 
   #main-container {
-      margin-top: 0px;
-      float:center;
-      padding-left: 30px;
-      padding-right: 30px;
+    padding-left: 5%;
+  }
+
+  h1 {
+    font-size: 145%;
   }
 
   .auth-image {
-      width: 330px;
-      margin-right: 15px;
-      margin-left: 0px;     
-    }
+    width: 48%;
+  }
+
+  .main-section {
+    width: 98%;
+    font-size: 60%;
+  }
 
   .sidebar {
+    margin-left: 0px;
     width: 100%;
-    margin: 0 0 40px 0;
+    margin-bottom: 10%;
   }
 
-  #socialicon {
-    padding-left: 0px;
+  .connectimg {
+    width: 15%;
   }
-}	
-
+}
 
 
 
@@ -318,51 +357,6 @@ input[type=submit] {
 /*optimization for 640px width*/
 
 @media screen and (max-width: 640px) {
-	body {
-		max-width: 640px;
-  }
+
   
-  #masthead {
-    padding: 0;
-
-  }
-
-  nav {
-    float: left;
-    clear: both;
-    width: 100%;
-    text-align: center;
-    margin-top: 5px;
-    padding: 10px 80px;
-    justify-content: space-between;
-  }
-
-  #logo {
-    width: 100%;
-    height: 80px;
-  }
-
-  .main-section {
-    margin-top: 30px;
-  }
-
-  .auth-image  {
-    width: 515px;
-  }
-
-  .indexlink {
-    padding-right: 50px;
-    padding-left: 0px;
-  }
-
-  .portlink {
-    padding-left: 50px;
-    padding-right: 50px;
-
-  }
-
-  .contactlink {
-    padding-left: 50px;
-
-  }
 }	
