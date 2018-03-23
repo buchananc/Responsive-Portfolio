@@ -80,7 +80,6 @@ h3 {
 nav {
   float: right;
   margin-top: 25px;
-  padding-right: 30px;
 }
 
 nav a {
@@ -125,35 +124,15 @@ h3, h2 {
   min-height: calc(100vh - 70px);
 }
 
-section {
-
-}
-
 .main-section {
   float: left;
-  width: 60%;
-  max-width: 760px;
+  width: 100%;
+  max-width: 960px;
   padding: 30px;
-  margin: 0 0px 40px;
+  margin: 0 0 40px;
   background: #fff;
   border: 1px solid #ddd;
 }
-
-.sidebar {
-  background: #fff;
-  border: 1px solid #ddd;
-  padding: 20px;
-  margin: 0 0 40px 20px;
-  float: left;
-}
-
-.connectimg {
-  width: 70px;
-
-}
- #socialicon {
-   padding: 0px 40px;
- }
 
 /* portfolio page */
 
@@ -236,127 +215,3 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
-
-/*optimization for 980px width*/
-
-@media screen and (max-width: 980px) {
-
-  #masthead {
-    padding-left: 10%;
-    padding-right: 4%;
-  }
-
-  #logo {
-    font-size: 110%;
-    height: 3em;
-    width: 7.5em;
-    line-height: 4rem;  
-  }
-
-  nav {
-    font-size: 70%;
-    margin-top: 2%;
-  }
-
-  #main-container {
-    padding-top: 15%;
-    padding-right: 3%;
-    padding-left: 10%;
-  }
-
-  .main-section {
-    padding: 4%;
-    width: 55%;
-    font-size: 80%;
-    line-height: 170%;
-  }
-
-  h1 {
-    font-size: 110%;
-    padding-bottom: 3%;
-    line-height: 208%;
-  }
-
-  .auth-image {
-    margin: 0;
-    width: 100%;
-  }
-
-  .sidebar {
-    width: 35%;
-    font-size: 80%;
-    padding: 3%;
-  }
-
-  #socialicon {
-    padding: 0;
-  }
-
-  .connectimg {
-    width: 31%;
-  }
-
-  footer {
-    padding-top: 3%;
-    padding-bottom: 6%;
-  }
-}
-
-
-/*optimization for 768px width*/
-
-@media screen and (max-width: 768px) {
-
-  #masthead {
-    padding-left: 5%;
-  }
-
-  #logo {
-    font-size: 85%;
-    height: 3.3em;
-    width: 6.5em;
-    line-height: 3rem;
-  }
-
-  nav {
-    font-size: 60%;
-    padding-right: 4%;
-  }
-
-  #main-container {
-    padding-left: 5%;
-  }
-
-  h1 {
-    font-size: 145%;
-  }
-
-  .auth-image {
-    width: 48%;
-  }
-
-  .main-section {
-    width: 98%;
-    font-size: 60%;
-  }
-
-  .sidebar {
-    margin-left: 0px;
-    width: 100%;
-    margin-bottom: 10%;
-  }
-
-  .connectimg {
-    width: 15%;
-  }
-}
-
-
-
-
-/*optimization for 640px width*/
-
-@media screen and (max-width: 640px) {
-
-  
-}	
