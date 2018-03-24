@@ -306,12 +306,19 @@ input[type=submit] {
     width: 100%;
   }
 
-  .nav {
+  nav {
     clear: both;
     width: 100%;
-    margin: 20px 10px;
+    margin: 2px 15px 20px 10px;
     text-align: center;
-    margin-right: 10px;
+    justify-content: space-between;
+  }
+
+  .main-section {
+    margin-top: 65px;
   }
   
+  .auth-image {
+    width: 100%;
+  }
 }	
